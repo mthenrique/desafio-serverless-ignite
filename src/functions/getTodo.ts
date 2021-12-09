@@ -1,5 +1,5 @@
 import { APIGatewayProxyHandler } from 'aws-lambda';
-import {document} from '../utils/dynamoDbClient'
+import {document} from '../utils/dynamodbClient'
 
 export const handle: APIGatewayProxyHandler = async(event) => {
   const {id} = event.pathParameters;

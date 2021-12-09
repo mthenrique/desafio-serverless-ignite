@@ -1,4 +1,4 @@
-import {document} from '../utils/dynamoDbClient'
+import {document} from '../utils/dynamodbClient'
 
 
 import { APIGatewayProxyHandler } from 'aws-lambda';
